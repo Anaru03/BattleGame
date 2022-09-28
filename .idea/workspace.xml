@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Propiedades en la clase Combatientes con sus getters y setters">
-      <change afterPath="$PROJECT_DIR$/src/items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/specialHability.java" afterDir="false" />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Creación de las clases items junto a sus propiedades y getters y setters y specialHability">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664406334441</updated>
-      <workItem from="1664406336680" duration="1327000" />
+      <workItem from="1664406336680" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664407734921</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creación de las clases items junto a sus propiedades y getters y setters y specialHability">
+      <created>1664408384896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664408384896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de las clases principales del programa." />
     <MESSAGE value="Propiedades en la clase Combatientes con sus getters y setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Propiedades en la clase Combatientes con sus getters y setters" />
+    <MESSAGE value="Creación de las clases items junto a sus propiedades y getters y setters y specialHability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de las clases items junto a sus propiedades y getters y setters y specialHability" />
   </component>
 </project>
