@@ -6,8 +6,15 @@ static Scanner lector = new Scanner(System.in);
         System.out.println("Ingrese su nombre");
         String name;
 
-        System.out.println("¿Quieres ser guerrero o explorador?");
+        name = lector.nextLine();
 
+
+        System.out.println("¿Quieres ser guerrero o explorador?");
+        String type;
+
+        type = lector.nextLine();
+
+        Controller.newPlayer(name, type);
     }
 
 }

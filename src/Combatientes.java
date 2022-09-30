@@ -4,6 +4,8 @@ public class Combatientes {
     private int pointsLife;
     private int powerAttack;
 
+    private items habilidades;
+
     public String getName() {
         return name;
     }
@@ -26,5 +28,13 @@ public class Combatientes {
 
     public void setPowerAttack(int powerAttack) {
         this.powerAttack = powerAttack;
+    }
+
+    public items getHabilidades() {
+        return habilidades;
+    }
+
+    public void setHabilidades(items habilidades) {
+        this.habilidades = habilidades;
     }
 }
