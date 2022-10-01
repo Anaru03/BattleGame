@@ -9,7 +9,7 @@ public class Controller {
         UI.UIPlayer();
 
     }
-    public static void newPlayer(String name, String type){
+    public static void newPlayer(String name, String type, int itemDelUsuario){
         if(type.equalsIgnoreCase("guerrero")){
             Warrior warrior = new Warrior();
             warrior.setName(name);
