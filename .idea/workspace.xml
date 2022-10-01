@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se declaro la variable itemDelUsuario en el UI.&#10;&#10;Se agregó la variable int itemDelUsuario a los parámetros de la clase newPlayer en el Controller">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se agregó el objeto Warrior a la lista de jugadores">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <updated>1664406334441</updated>
       <workItem from="1664406336680" duration="2393000" />
       <workItem from="1664561396919" duration="4839000" />
-      <workItem from="1664647193449" duration="5879000" />
+      <workItem from="1664647193449" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664652506225</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se agregó el objeto Warrior a la lista de jugadores">
+      <created>1664653338148</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664653338148</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +146,7 @@
     <MESSAGE value="Se concatenó las opcciones más los objetos de la clase Controller" />
     <MESSAGE value="Se mandó a llamar la clase UIPlayer al Controller. Así mismo se llamó el método selectorItems al Controller.&#10;&#10;Se concatenó el name con un ptinIn." />
     <MESSAGE value="Se declaro la variable itemDelUsuario en el UI.&#10;&#10;Se agregó la variable int itemDelUsuario a los parámetros de la clase newPlayer en el Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se declaro la variable itemDelUsuario en el UI.&#10;&#10;Se agregó la variable int itemDelUsuario a los parámetros de la clase newPlayer en el Controller" />
+    <MESSAGE value="Se agregó el objeto Warrior a la lista de jugadores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregó el objeto Warrior a la lista de jugadores" />
   </component>
 </project>

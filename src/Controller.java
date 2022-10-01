@@ -25,6 +25,12 @@ public class Controller {
         }
 
         if(type.equalsIgnoreCase("explorador")){
+            Explorer explorer = new Explorer();
+            explorer. setName(name);
+            explorer.setPointsLife(10);
+            explorer.setPowerAttack(5);
+            explorer.setHabilidades(arrayItems.get(itemDelUsuario));
+            arrayPlayer.add(explorer);
 
         }
 
