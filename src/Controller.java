@@ -3,6 +3,9 @@ import java.util.ArrayList;
 public class Controller {
 
     static ArrayList<items> arrayItems = new ArrayList();
+    static ArrayList<Enemy> arrayEnemy = new ArrayList();
+    static ArrayList<Player> arrayPlayer = new ArrayList();
+
 
     public static void main(String[] args) {
         selectorItems();
@@ -15,6 +18,10 @@ public class Controller {
             warrior.setName(name);
             warrior.setPointsLife(20);
             warrior.setPowerAttack(5);
+            warrior.setHabilidades(arrayItems.get(itemDelUsuario));
+            arrayPlayer.add(warrior);
+
+
         }
 
         if(type.equalsIgnoreCase("explorador")){
@@ -48,6 +55,7 @@ public class Controller {
 
 
     }
+
 
 
 }
