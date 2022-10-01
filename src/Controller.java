@@ -5,6 +5,7 @@ public class Controller {
     static ArrayList<items> arrayItems = new ArrayList();
 
     public static void main(String[] args) {
+        UI.UIPlayer();
 
     }
     public static void newPlayer(String name, String type){
@@ -26,22 +27,28 @@ public class Controller {
         cajaExplosiva.setName("Caja explosiva");
         cajaExplosiva.setAttack(5);
         cajaExplosiva.setMoreLife(0);
+        arrayItems.add(cajaExplosiva);
+
 
         items autoGenerador = new items();
         autoGenerador.setName("Autogenerador de puntos");
         autoGenerador.setAttack(0);
         autoGenerador.setMoreLife(3);
+        arrayItems.add(autoGenerador);
 
         items turnoDoble = new items();
         turnoDoble.setName("Turno doble");
         turnoDoble.setAttack(2);
         turnoDoble.setMoreLife(1);
+        arrayItems.add(turnoDoble);
 
 
 
 
         return arrayItems;
 
+
     }
+
 
 }
