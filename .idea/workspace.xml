@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Creación de los generadores del Warrior y te items">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se concatenó las opcciones más los objetos de la clase Controller">
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <updated>1664406334441</updated>
       <workItem from="1664406336680" duration="2393000" />
       <workItem from="1664561396919" duration="4839000" />
-      <workItem from="1664647193449" duration="2609000" />
+      <workItem from="1664647193449" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664566189839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se concatenó las opcciones más los objetos de la clase Controller">
+      <created>1664650098611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664650098611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +122,7 @@
     <MESSAGE value="Se heredaron las propiedades de la clase padre en Combatientes" />
     <MESSAGE value="Desarrollo del Scanner en la clase UI y creación de la clase newPlayer en el Controller" />
     <MESSAGE value="Creación de los generadores del Warrior y te items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de los generadores del Warrior y te items" />
+    <MESSAGE value="Se concatenó las opcciones más los objetos de la clase Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se concatenó las opcciones más los objetos de la clase Controller" />
   </component>
 </project>

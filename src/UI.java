@@ -9,7 +9,7 @@ static Scanner lector = new Scanner(System.in);
         name = lector.next();
 
 
-        System.out.println("¿Quieres ser guerrero o explorador?");
+        System.out.println(name + " "  + "¿Deseas ser ser guerrero o explorador?");
         String type;
 
         type = lector.next();

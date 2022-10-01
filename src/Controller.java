@@ -5,6 +5,7 @@ public class Controller {
     static ArrayList<items> arrayItems = new ArrayList();
 
     public static void main(String[] args) {
+        selectorItems();
         UI.UIPlayer();
 
     }
@@ -41,8 +42,6 @@ public class Controller {
         turnoDoble.setAttack(2);
         turnoDoble.setMoreLife(1);
         arrayItems.add(turnoDoble);
-
-
 
 
         return arrayItems;
