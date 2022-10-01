@@ -31,10 +31,26 @@ public class Controller {
             explorer.setPowerAttack(5);
             explorer.setHabilidades(arrayItems.get(itemDelUsuario));
             arrayPlayer.add(explorer);
-
         }
+    }
+
+    public static void newEnemy(){
+        Enemy gladiador = new Enemy();
+        Enemy bloomer = new Enemy();
+        EnemyBoss TheSupremacyBoss = new EnemyBoss();
+
+        gladiador.setName("Gladiador");
+        gladiador.setName("Usaré tus huesos como lanzas");
+        gladiador.setPowerAttack(3);
+        gladiador.setPointsLife(10);
+        gladiador.setHability(new specialHability("Lanzas de fuego", 10, 3));
+
+
+
 
     }
+
+
 
     public static ArrayList selectorItems (){
         items cajaExplosiva = new items();

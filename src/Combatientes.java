@@ -29,7 +29,6 @@ public class Combatientes {
     public void setPowerAttack(int powerAttack) {
         this.powerAttack = powerAttack;
     }
-
     public items getHabilidades() {
         return habilidades;
     }
