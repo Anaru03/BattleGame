@@ -40,13 +40,26 @@ public class Controller {
         EnemyBoss TheSupremacyBoss = new EnemyBoss();
 
         gladiador.setName("Gladiador");
-        gladiador.setName("Usaré tus huesos como lanzas");
+        gladiador.setName("Tus huesos serían buenas herramientas para mis lanzas");
         gladiador.setPowerAttack(3);
         gladiador.setPointsLife(10);
         gladiador.setHability(new specialHability("Lanzas de fuego", 10, 3));
 
+        bloomer.setName("Bloomer");
+        bloomer.setName("Te encerraré en una burbuja hasta que te quedes sin aire");
+        bloomer.setPowerAttack(2);
+        bloomer.setPointsLife(15);
+        bloomer.setHability(new specialHability("Burbujas venenosas", 15, 2));
 
+        TheSupremacyBoss.setName("The Supremacy Boss");
+        TheSupremacyBoss.setName("¡El líder de este mundo está aquí!");
+        TheSupremacyBoss.setPowerAttack(1);
+        TheSupremacyBoss.setPointsLife(19);
+        TheSupremacyBoss.setHability(new specialHability("Cuchillo infernal", 19, 1));
 
+        arrayEnemy.add(gladiador);
+        arrayEnemy.add(bloomer);
+        arrayEnemy.add(TheSupremacyBoss);
 
     }
 

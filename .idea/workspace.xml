@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se desarrroló los atributos y métodos de la clase specialHability junto con sus getters y setters.">
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Combatientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combatientes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnemyBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnemyBoss.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <updated>1664406334441</updated>
       <workItem from="1664406336680" duration="2393000" />
       <workItem from="1664561396919" duration="4839000" />
-      <workItem from="1664647193449" duration="9395000" />
+      <workItem from="1664647193449" duration="10786000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -137,7 +134,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664655961928</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="La clase EnemyBoss&#10;hederó las características de la clase Enemy.">
+      <created>1664657005503</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664657005503</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Desarrollo de las propiedades de la clase Enemy junto sus getteres y setters.">
+      <created>1664657084722</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664657084722</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss">
+      <created>1664657343220</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664657343220</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +185,9 @@
     <MESSAGE value="Se agregó el objeto Warrior a la lista de jugadores" />
     <MESSAGE value="Se le agregó un atributo items con el nombre items2 en la clase Explorer.&#10;&#10;Se creo un objetollamado explorer en el Controller junto a sus setters" />
     <MESSAGE value="Se desarrroló los atributos y métodos de la clase specialHability junto con sus getters y setters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se desarrroló los atributos y métodos de la clase specialHability junto con sus getters y setters." />
+    <MESSAGE value="La clase EnemyBoss&#10;hederó las características de la clase Enemy." />
+    <MESSAGE value="Desarrollo de las propiedades de la clase Enemy junto sus getteres y setters." />
+    <MESSAGE value="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss" />
   </component>
 </project>
