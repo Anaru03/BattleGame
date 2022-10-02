@@ -3,10 +3,16 @@ import java.util.ArrayList;
 
 public class Controller {
 
+    /**
+     *
+     */
     static ArrayList<items> arrayItems = new ArrayList();
     static ArrayList<Enemy> arrayEnemy = new ArrayList();
     static ArrayList<Player> arrayPlayer = new ArrayList();
 
+    /**
+     *
+     */
     static int numPlayer = 0;
 
     static int numEnemy = 0;
@@ -15,6 +21,10 @@ public class Controller {
 
     static int k;
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         newEnemy();
         selectorItems();
@@ -38,6 +48,13 @@ public class Controller {
             }
         }
     }
+
+    /**
+     *
+     * @param name
+     * @param type
+     * @param itemDelUsuario
+     */
     public static void newPlayer(String name, String type, int itemDelUsuario){
         if(type.equalsIgnoreCase("guerrero")){
             Warrior warrior = new Warrior();
@@ -60,6 +77,9 @@ public class Controller {
         }
     }
 
+    /**
+     *
+     */
     public static void newEnemy(){
         Enemy gladiador = new Enemy();
         Enemy bloomer = new Enemy();
@@ -70,6 +90,7 @@ public class Controller {
         gladiador.setPowerAttack(3);
         gladiador.setPointsLife(10);
         gladiador.setHability(new specialHability("Lanzas de fuego", 10, 3));
+
 
         bloomer.setName("Bloomer");
         bloomer.setName("Te encerraré en una burbuja hasta que te quedes sin aire");
@@ -83,12 +104,18 @@ public class Controller {
         TheSupremacyBoss.setPointsLife(19);
         TheSupremacyBoss.setHability(new specialHability("Cuchillo infernal", 19, 1));
 
+
         arrayEnemy.add(gladiador);
         arrayEnemy.add(bloomer);
         arrayEnemy.add(TheSupremacyBoss);
 
     }
 
+    /**
+     *
+     * @param enemy
+     * @param player
+     */
     public static void UIturnoPlayer(Enemy enemy, Player player){
         int battle = UI.UIturnoPlayer(player);
         if(battle == 1){
@@ -102,11 +129,17 @@ public class Controller {
                 numTurn++;
             }
         }
+
         UI.typeOfState(enemy);
 
 
     }
 
+    /**
+     *
+     * @param enemy
+     * @param player
+     */
     public static void UIturnoEnemy(Enemy enemy, Player player){
         UI.UIturnoEnemy(numTurn, enemy);
         if (numTurn% 5 == 0){
@@ -122,7 +155,10 @@ public class Controller {
     }
 
 
-
+    /**
+     *
+     * @return
+     */
     public static ArrayList selectorItems (){
         items cajaExplosiva = new items();
         cajaExplosiva.setName("Caja explosiva");
