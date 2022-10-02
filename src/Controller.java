@@ -28,7 +28,7 @@ public class Controller {
                 }
 
                 if(k % 2 != 0){
-                    turnoEnemy(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                    UIturnoEnemy(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
                 }
             }
             else {
@@ -96,9 +96,12 @@ public class Controller {
         if(battle == 1){
             enemy.setPointsLife(enemy.getPointsLife()-player.getPowerAttack());
         }
-        else {
+        else{
             enemy.setPointsLife(enemy.getPointsLife()-player.getHabilidades().getAttack());
             player.setPointsLife(player.getPointsLife()-player.getHabilidades().getMoreLife());
+            if(player.getHabilidades().getName().equals("Turno doble")){
+                k ++;
+            }
         }
         UI.typeOfState(enemy);
     }
