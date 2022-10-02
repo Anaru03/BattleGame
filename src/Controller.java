@@ -6,11 +6,42 @@ public class Controller {
     static ArrayList<Enemy> arrayEnemy = new ArrayList();
     static ArrayList<Player> arrayPlayer = new ArrayList();
 
+    static int numPlayer = 0;
+
+    static int numEnemy = 0;
+
+    static int numTurn = 1;
+
+    static int k;
 
     public static void main(String[] args) {
         newEnemy();
         selectorItems();
         UI.UIPlayer();
+
+
+        for(k = 0; k<50; k++){
+            if ((arrayEnemy.get(numEnemy).getPointsLife()>0)&&(arrayPlayer.get(numPlayer).getPointsLife()>0)){
+                if (k % 2 == 0){
+                    turnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                }
+
+                if(k % 2 != 0){
+                    turnoEnemy(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                }
+            }
+            else {
+                numEnemy++;
+                UI.UIFirstBattle(numEnemy);
+
+            }
+        }
+
+
+
+
+
+
 
     }
     public static void newPlayer(String name, String type, int itemDelUsuario){
