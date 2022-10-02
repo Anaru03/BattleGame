@@ -56,6 +56,21 @@ static Scanner lector = new Scanner(System.in);
         return battle;
     }
 
+    public static void UIturnoEnemy(int numTurn, Enemy enemy){
+        System.out.println(" B) Es el turno de tu enemigo B) ");
+        if (numTurn% 5 == 0){
+            System.out.println("Hoy si vas a valer");
+            System.out.println("Tu enemigo: " + enemy.getName() + "usará la super habilidad: " + enemy.getHability().getName() + "Así que producirá: ");
+            System.out.println("Daño ocasioando: " + enemy.getHability().getDamageLife());
+            System.out.println("Curación: " + enemy.getPowerAttack());
+            System.out.println("La suerte ya no esta contigo :)");
+        }
+        else {
+            System.out.println("Tu enemigo: " + enemy.getName() + "te ha golpeado");
+            System.out.println("Daño ocasioando: " + enemy.getPowerAttack());
+        }
+    }
+
     public static void typeOfState(Combatientes combatientes){
         System.out.println("El combatiente: " + combatientes.getName() + "obtiene: ");
         System.out.println("Tiene vidad: " + combatientes.getPointsLife());
