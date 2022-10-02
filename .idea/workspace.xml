@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se desarrolló la clase UIturnoEnemy en la clase Controller, así mismo se mandó a llamar dosclases del UI: UIturnoEnemy y typeOfState para el enemigo y jugador">
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se modificó un numTurn en la clase de UIturnoPlayer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <workItem from="1664647193449" duration="11702000" />
       <workItem from="1664674400136" duration="8291000" />
       <workItem from="1664685728260" duration="873000" />
-      <workItem from="1664741863751" duration="3673000" />
+      <workItem from="1664741863751" duration="4208000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664745326429</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Se modificó un numTurn en la clase de UIturnoPlayer">
+      <created>1664745647841</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664745647841</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +270,7 @@
     <MESSAGE value="Se desarrolló lla clase UIturnoEnemy para darle las acciones al enemigo en el UI." />
     <MESSAGE value="Adentro del if de la clase UItirnoPlayer se le asignó la opcción de Turno doble, en otras palabras, es el turno perdido." />
     <MESSAGE value="Se desarrolló la clase UIturnoEnemy en la clase Controller, así mismo se mandó a llamar dosclases del UI: UIturnoEnemy y typeOfState para el enemigo y jugador" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se desarrolló la clase UIturnoEnemy en la clase Controller, así mismo se mandó a llamar dosclases del UI: UIturnoEnemy y typeOfState para el enemigo y jugador" />
+    <MESSAGE value="Se modificó un numTurn en la clase de UIturnoPlayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modificó un numTurn en la clase de UIturnoPlayer" />
   </component>
 </project>
