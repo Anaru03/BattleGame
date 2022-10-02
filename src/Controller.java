@@ -1,3 +1,4 @@
+import javax.swing.plaf.PanelUI;
 import java.util.ArrayList;
 
 public class Controller {
@@ -23,7 +24,7 @@ public class Controller {
         for(k = 0; k<50; k++){
             if ((arrayEnemy.get(numEnemy).getPointsLife()>0)&&(arrayPlayer.get(numPlayer).getPointsLife()>0)){
                 if (k % 2 == 0){
-                    turnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                    UIturnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
                 }
 
                 if(k % 2 != 0){
@@ -36,11 +37,6 @@ public class Controller {
 
             }
         }
-
-
-
-
-
 
 
     }
@@ -93,6 +89,18 @@ public class Controller {
         arrayEnemy.add(bloomer);
         arrayEnemy.add(TheSupremacyBoss);
 
+    }
+
+    public static void UIturnoPlayer(Enemy enemy, Player player){
+        int battle = UI.UIturnoPlayer(player);
+        if(battle == 1){
+            enemy.setPointsLife(enemy.getPointsLife()-player.getPowerAttack());
+        }
+        else {
+            enemy.setPointsLife(enemy.getPointsLife()-player.getHabilidades().getAttack());
+            player.setPointsLife(player.getPointsLife()-player.getHabilidades().getMoreLife());
+        }
+        UI.typeOfState(enemy);
     }
 
 
