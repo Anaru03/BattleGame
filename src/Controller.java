@@ -37,8 +37,6 @@ public class Controller {
 
             }
         }
-
-
     }
     public static void newPlayer(String name, String type, int itemDelUsuario){
         if(type.equalsIgnoreCase("guerrero")){
@@ -104,6 +102,20 @@ public class Controller {
             }
         }
         UI.typeOfState(enemy);
+    }
+
+    public static void UIturnoEnemy(Enemy enemy, Player player){
+        UI.UIturnoEnemy(numTurn, enemy);
+        if (numTurn% 5 == 0){
+            player.setPointsLife(player.getPointsLife() - enemy.getHability().getDamageLife());
+            enemy.setPointsLife(enemy.getPointsLife() + enemy.getHability().getCure());
+        }
+        else{
+            player.setPointsLife(player.getPointsLife() - enemy.getPowerAttack());
+        }
+        UI.typeOfState(player);
+
+        numTurn++;
     }
 
 
