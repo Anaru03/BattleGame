@@ -23,7 +23,6 @@ public class Controller {
     static int k;
 
     /**
-     *
      * @param args
      */
     public static void main(String[] args) {
@@ -52,8 +51,8 @@ public class Controller {
 
     /**
      *
-     * @param name
-     * @param type
+     * @param name nombre del jugador
+     * @param type tipo de juagados: guerrero o explorador
      * @param itemDelUsuario
      */
     public static void newPlayer(String name, String type, int itemDelUsuario){
