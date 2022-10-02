@@ -99,9 +99,12 @@ public class Controller {
             player.setPointsLife(player.getPointsLife()-player.getHabilidades().getMoreLife());
             if(player.getHabilidades().getName().equals("Turno doble")){
                 k ++;
+                numTurn++;
             }
         }
         UI.typeOfState(enemy);
+
+
     }
 
     public static void UIturnoEnemy(Enemy enemy, Player player){
