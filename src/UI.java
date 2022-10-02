@@ -2,8 +2,17 @@ import com.sun.tools.javac.Main;
 
 import java.util.Scanner;
 
+
 public class UI {
-static Scanner lector = new Scanner(System.in);
+
+    /**
+     *
+     */
+    static Scanner lector = new Scanner(System.in);
+
+    /**
+     *
+     */
     public static void UIPlayer() {
         System.out.println("Ingrese su nombre");
         String name;
@@ -32,6 +41,10 @@ static Scanner lector = new Scanner(System.in);
 
     }
 
+    /**
+     *
+     * @param numEnemy
+     */
     public static void UIFirstBattle(int numEnemy){
         System.out.println(" -_- START THE BATTLE -_- ");
         System.out.println("Tendrás el honor de pelear con... ");
@@ -39,6 +52,11 @@ static Scanner lector = new Scanner(System.in);
         System.out.println("Tu enemigo te desea comunicar que:  = " + Controller.arrayEnemy.get(numEnemy).getPrintMessage());
     }
 
+    /**
+     *
+     * @param player
+     * @return
+     */
     public static int UIturnoPlayer(Player player){
         System.out.println(" -_- Es tu turno Player -_- ");
         System.out.println("Escriba el no. de la opcción seleccioanda");
@@ -56,6 +74,12 @@ static Scanner lector = new Scanner(System.in);
         return battle;
     }
 
+
+    /**
+     *
+     * @param numTurn
+     * @param enemy
+     */
     public static void UIturnoEnemy(int numTurn, Enemy enemy){
         System.out.println(" B) Es el turno de tu enemigo B) ");
         if (numTurn% 5 == 0){
@@ -71,6 +95,10 @@ static Scanner lector = new Scanner(System.in);
         }
     }
 
+    /**
+     *
+     * @param combatientes
+     */
     public static void typeOfState(Combatientes combatientes){
         System.out.println("El combatiente: " + combatientes.getName() + " " + "obtiene: ");
         System.out.println("Vida: " + combatientes.getPointsLife());

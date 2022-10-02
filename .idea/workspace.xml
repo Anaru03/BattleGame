@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Corrección de ortografía y espacio entre palabras">
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se desarrollan los comentarios para generar el javaDoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specialHability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialHability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Combatientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combatientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +55,8 @@
       <workItem from="1664647193449" duration="11702000" />
       <workItem from="1664674400136" duration="8291000" />
       <workItem from="1664685728260" duration="873000" />
-      <workItem from="1664741863751" duration="7016000" />
+      <workItem from="1664741863751" duration="7309000" />
+      <workItem from="1664749775740" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664746126150</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Se desarrollan los comentarios para generar el javaDoc">
+      <created>1664749556866</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664749556866</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +265,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Propiedades en la clase Combatientes con sus getters y setters" />
     <MESSAGE value="Creación de las clases items junto a sus propiedades y getters y setters y specialHability" />
     <MESSAGE value="Se heredaron las propiedades de la clase padre en Combatientes" />
     <MESSAGE value="Desarrollo del Scanner en la clase UI y creación de la clase newPlayer en el Controller" />
@@ -283,6 +289,7 @@
     <MESSAGE value="Se desarrolló la clase UIturnoEnemy en la clase Controller, así mismo se mandó a llamar dosclases del UI: UIturnoEnemy y typeOfState para el enemigo y jugador" />
     <MESSAGE value="Se modificó un numTurn en la clase de UIturnoPlayer" />
     <MESSAGE value="Corrección de ortografía y espacio entre palabras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección de ortografía y espacio entre palabras" />
+    <MESSAGE value="Se desarrollan los comentarios para generar el javaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se desarrollan los comentarios para generar el javaDoc" />
   </component>
 </project>
