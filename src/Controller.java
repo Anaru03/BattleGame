@@ -1,18 +1,19 @@
+/**
+ * @author Ruth Anaí de León Morataya
+ */
+
 import javax.swing.plaf.PanelUI;
+
 import java.util.ArrayList;
 
 public class Controller {
 
-    /**
-     *
-     */
+
     static ArrayList<items> arrayItems = new ArrayList();
     static ArrayList<Enemy> arrayEnemy = new ArrayList();
     static ArrayList<Player> arrayPlayer = new ArrayList();
 
-    /**
-     *
-     */
+
     static int numPlayer = 0;
 
     static int numEnemy = 0;
