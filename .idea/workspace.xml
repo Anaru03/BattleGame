@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss">
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se llamó la clase newEnemy en el main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,8 @@
       <updated>1664406334441</updated>
       <workItem from="1664406336680" duration="2393000" />
       <workItem from="1664561396919" duration="4839000" />
-      <workItem from="1664647193449" duration="10786000" />
+      <workItem from="1664647193449" duration="11702000" />
+      <workItem from="1664674400136" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -155,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664657343220</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Creación de los diferentes enemigos con sus características.">
+      <created>1664658421640</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664658421640</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Se llamó la clase newEnemy en el main">
+      <created>1664658575611</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664658575611</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +204,8 @@
     <MESSAGE value="La clase EnemyBoss&#10;hederó las características de la clase Enemy." />
     <MESSAGE value="Desarrollo de las propiedades de la clase Enemy junto sus getteres y setters." />
     <MESSAGE value="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss" />
+    <MESSAGE value="Creación de los diferentes enemigos con sus características." />
+    <MESSAGE value="Se llamó la clase newEnemy en el main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se llamó la clase newEnemy en el main" />
   </component>
 </project>

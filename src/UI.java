@@ -1,3 +1,5 @@
+import com.sun.tools.javac.Main;
+
 import java.util.Scanner;
 
 public class UI {
@@ -28,6 +30,13 @@ static Scanner lector = new Scanner(System.in);
         itemDelUsuario = lector.nextInt();
         Controller.newPlayer(name, type, itemDelUsuario);
 
+    }
+
+    public static void UIFirstBattle(int numEnemy){
+        System.out.println(" -_- START THE BATTLE -_- ");
+        System.out.println("Tendrás el honor de pelear con... ");
+        System.out.println(Controller.arrayEnemy.get(numEnemy).getName());
+        System.out.println("Tu enemigo te desea comunicar que:  = " + Controller.arrayEnemy.get(numEnemy).getPrintMessage());
     }
 }
 
