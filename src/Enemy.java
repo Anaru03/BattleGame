@@ -9,7 +9,7 @@ public class Enemy extends Combatientes{
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo printMessage
      */
     public String getPrintMessage() {
         return printMessage;
@@ -17,7 +17,7 @@ public class Enemy extends Combatientes{
 
     /**
      *
-     * @param printMessage
+     * @param printMessage imprimé un mensaje a través de la batalla
      */
     public void setPrintMessage(String printMessage) {
         this.printMessage = printMessage;
@@ -25,7 +25,7 @@ public class Enemy extends Combatientes{
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo hability
      */
     public specialHability getHability() {
         return hability;
@@ -33,7 +33,7 @@ public class Enemy extends Combatientes{
 
     /**
      *
-     * @param hability
+     * @param hability habilidad del Enemy
      */
     public void setHability(specialHability hability) {
         this.hability = hability;

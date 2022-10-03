@@ -23,7 +23,7 @@ public class Controller {
     static int k;
 
     /**
-     * @param args
+     * @param args clase Main que tiene desarrollo en los turnos de los participantes
      */
     public static void main(String[] args) {
         newEnemy();

@@ -8,8 +8,7 @@ public class items {
     private int attack;
 
     /**
-     * regreesa una variable de tipo name
-     * @return
+     * @return regreesa una variable de tipo name
      */
     public String getName() {
         return name;
@@ -23,8 +22,7 @@ public class items {
     }
 
     /**
-     * regresa una variable de tipo moreLife
-     * @return
+     * @return regresa una variable de tipo moreLife
      */
     public int getMoreLife() {
         return moreLife;

@@ -6,16 +6,14 @@ public class Combatientes {
     private items habilidades;
 
     /**
-     *
-     * @return
+     * @return regresa una variable de tipo name
      */
     public String getName() {
         return name;
     }
 
     /**
-     *
-     * @param name
+     * @param name nombre del combatiente
      */
     public void setName(String name) {
         this.name = name;
@@ -23,7 +21,7 @@ public class Combatientes {
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo pointsLife
      */
     public int getPointsLife() {
         return pointsLife;
@@ -31,7 +29,7 @@ public class Combatientes {
 
     /**
      *
-     * @param pointsLife
+     * @param pointsLife número de puntos de vida de los combatientes
      */
     public void setPointsLife(int pointsLife) {
         this.pointsLife = pointsLife;
@@ -39,7 +37,7 @@ public class Combatientes {
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo powerAttack
      */
     public int getPowerAttack() {
         return powerAttack;
@@ -47,7 +45,7 @@ public class Combatientes {
 
     /**
      *
-     * @param powerAttack
+     * @param powerAttack número de ataque en los combatientes
      */
     public void setPowerAttack(int powerAttack) {
         this.powerAttack = powerAttack;
@@ -55,7 +53,7 @@ public class Combatientes {
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo habilidades
      */
     public items getHabilidades() {
         return habilidades;
@@ -63,7 +61,7 @@ public class Combatientes {
 
     /**
      *
-     * @param habilidades
+     * @param habilidades habilidades de los combatientes
      */
     public void setHabilidades(items habilidades) {
         this.habilidades = habilidades;
