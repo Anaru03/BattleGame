@@ -9,12 +9,14 @@ import java.util.Scanner;
 public class UI {
 
     /**
-     *
+     *Clase llaamda lector que permite obtener la entrada de datos primitivos.
      */
     static Scanner lector = new Scanner(System.in);
 
+
     /**
-     *
+     *Se desarrolla la clase UIPlayer para conocer los datos del jugador como: nombre, tipo de juador (explorador o guerrero)
+     * Se concatenaron dos entradas para descrbir al player las funciones de las habilidades de los ítems
      */
     public static void UIPlayer() {
         System.out.println("Ingrese su nombre");
@@ -44,9 +46,10 @@ public class UI {
 
     }
 
+
     /**
-     *
-     * @param numEnemy
+     *Se da el inicio de la batalla y se le comunica al Player su tipo de rival.
+     * @param numEnemy manda a llamar a la clase Contrller para iniciar desde 0
      */
     public static void UIFirstBattle(int numEnemy){
         System.out.println(" -_- START THE BATTLE -_- ");
@@ -56,9 +59,9 @@ public class UI {
     }
 
     /**
-     *
-     * @param player
-     * @return
+     *En esta clase de desarrolla la oportunidad de que el Player juegue
+     * @param player turno del jugador en la batalla
+     * @return regresa un tipo de variable battle.
      */
     public static int UIturnoPlayer(Player player){
         System.out.println(" -_- Es tu turno Player -_- ");
@@ -79,9 +82,9 @@ public class UI {
 
 
     /**
-     *
-     * @param numTurn
-     * @param enemy
+     * *En esta clase de desarrolla la oportunidad de que el Enemy juegue
+     * @param numTurn número de turno del Enemy en la batalla
+     * @param enemy acciones del enemy degún su tipo de habilidad
      */
     public static void UIturnoEnemy(int numTurn, Enemy enemy){
         System.out.println(" B) Es el turno de tu enemigo B) ");
@@ -99,8 +102,8 @@ public class UI {
     }
 
     /**
-     *
-     * @param combatientes
+     *Clase que muestra el tipo de estado en el que se encuentre los combatienes
+     * @param combatientes estado del combatiente
      */
     public static void typeOfState(Combatientes combatientes){
         System.out.println("El combatiente: " + combatientes.getName() + " " + "obtiene: ");

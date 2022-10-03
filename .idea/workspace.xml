@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se generó arreglos en los comentarios del programa según sus indicadores">
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Desarrollo final de comentarios en la clase specialHability">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specialHability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialHability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <workItem from="1664749775740" duration="434000" />
       <workItem from="1664750221142" duration="4470000" />
       <workItem from="1664807310142" duration="46000" />
-      <workItem from="1664815264363" duration="2666000" />
+      <workItem from="1664815264363" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -299,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664817725840</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Desarrollo final de comentarios en la clase specialHability">
+      <created>1664819087700</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664819087700</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Se mandó a llamar la clase UIPlayer al Controller. Así mismo se llamó el método selectorItems al Controller.&#10;&#10;Se concatenó el name con un ptinIn." />
     <MESSAGE value="Se declaro la variable itemDelUsuario en el UI.&#10;&#10;Se agregó la variable int itemDelUsuario a los parámetros de la clase newPlayer en el Controller" />
     <MESSAGE value="Se agregó el objeto Warrior a la lista de jugadores" />
     <MESSAGE value="Se le agregó un atributo items con el nombre items2 en la clase Explorer.&#10;&#10;Se creo un objetollamado explorer en el Controller junto a sus setters" />
@@ -342,6 +349,7 @@
     <MESSAGE value="Descripción de los métodos y clases en el Controller" />
     <MESSAGE value="Modificación de los comentarios para el javaDoc" />
     <MESSAGE value="Se generó arreglos en los comentarios del programa según sus indicadores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se generó arreglos en los comentarios del programa según sus indicadores" />
+    <MESSAGE value="Desarrollo final de comentarios en la clase specialHability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desarrollo final de comentarios en la clase specialHability" />
   </component>
 </project>
