@@ -8,7 +8,7 @@ public class items {
     private int attack;
 
     /**
-     *
+     * regreesa una variable de tipo name
      * @return
      */
     public String getName() {
@@ -16,15 +16,14 @@ public class items {
     }
 
     /**
-     *
-     * @param name
+     * @param name nombre de las habilidades para el player
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     *
+     * regresa una variable de tipo moreLife
      * @return
      */
     public int getMoreLife() {
@@ -32,16 +31,14 @@ public class items {
     }
 
     /**
-     *
-     * @param moreLife
+     * @param moreLife vidas extras que se les dará al Player
      */
     public void setMoreLife(int moreLife) {
         this.moreLife = moreLife;
     }
 
     /**
-     *
-     * @return
+     * @return regresa una variable de tipo attack
      */
     public int getAttack() {
         return attack;
@@ -49,7 +46,7 @@ public class items {
 
     /**
      *
-     * @param attack
+     * @param attack ataque manejado por el Player
      */
     public void setAttack(int attack) {
         this.attack = attack;
