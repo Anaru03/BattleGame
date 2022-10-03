@@ -64,8 +64,6 @@ public class Controller {
             warrior.setPowerAttack(5);
             warrior.setHabilidades(arrayItems.get(itemDelUsuario));
             arrayPlayer.add(warrior);
-
-
         }
 
         if(type.equalsIgnoreCase("explorador")){
@@ -79,7 +77,9 @@ public class Controller {
     }
 
     /**
-     *
+     *La clase newEnemy divide los tipos de enemigos que hay; gladiador, bloomer y EnemyBoss.
+     * Realiza las acciones según el tipo de enemigo escogido al azar
+     * Cada enemigo posee su cantidad de vida y daño
      */
     public static void newEnemy(){
         Enemy gladiador = new Enemy();
@@ -91,7 +91,6 @@ public class Controller {
         gladiador.setPowerAttack(3);
         gladiador.setPointsLife(10);
         gladiador.setHability(new specialHability("Lanzas de fuego", 10, 3));
-
 
         bloomer.setName("Bloomer");
         bloomer.setName("Te encerraré en una burbuja hasta que te quedes sin aire");
@@ -105,17 +104,15 @@ public class Controller {
         TheSupremacyBoss.setPointsLife(19);
         TheSupremacyBoss.setHability(new specialHability("Cuchillo infernal", 19, 1));
 
-
         arrayEnemy.add(gladiador);
         arrayEnemy.add(bloomer);
         arrayEnemy.add(TheSupremacyBoss);
-
     }
 
     /**
-     *
-     * @param enemy
-     * @param player
+     *Se genera la clase de UIturnoPlayer para otorgar la oportunidad de turnos en el jugador
+     * @param enemy enemigo usado para que tenga su turno
+     * @param player jugador usado para que tenga su turno
      */
     public static void UIturnoPlayer(Enemy enemy, Player player){
         int battle = UI.UIturnoPlayer(player);
@@ -130,16 +127,13 @@ public class Controller {
                 numTurn++;
             }
         }
-
         UI.typeOfState(enemy);
-
-
     }
 
     /**
-     *
-     * @param enemy
-     * @param player
+     *Se genera la clase de UIturnoEnemy para otorgar la oportunidad de turnos en el enemigo del jugador
+     * @param enemy enemigo usado para que tenga su turno
+     * @param player jugador usado para que tenga su turno
      */
     public static void UIturnoEnemy(Enemy enemy, Player player){
         UI.UIturnoEnemy(numTurn, enemy);
@@ -157,8 +151,9 @@ public class Controller {
 
 
     /**
-     *
-     * @return
+     *Se desarrolla la clase con el fin de generar los Items que podrá escoger el jugador
+     * Se proyectará una lista de tres opcciones con sus respectivas careterísticas para que el jugador conozca sus ventajas y desventajas.
+     * @return regresará un ArrayList de tipo items
      */
     public static ArrayList selectorItems (){
         items cajaExplosiva = new items();
@@ -166,7 +161,6 @@ public class Controller {
         cajaExplosiva.setAttack(5);
         cajaExplosiva.setMoreLife(0);
         arrayItems.add(cajaExplosiva);
-
 
         items autoGenerador = new items();
         autoGenerador.setName("Autogenerador de puntos");
@@ -180,12 +174,6 @@ public class Controller {
         turnoDoble.setMoreLife(1);
         arrayItems.add(turnoDoble);
 
-
         return arrayItems;
-
-
     }
-
-
-
 }
