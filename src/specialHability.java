@@ -9,10 +9,9 @@ public class specialHability {
 
 
     /**
-     *
-     * @param name
-     * @param cure
-     * @param damageLife
+     * @param name nombre de la habilidad especial escogida por el Player
+     * @param cure número de curación en los puntos de los jugadores
+     * @param damageLife número de daño en los puntos de los jugadores
      */
     public specialHability (String name, int cure, int damageLife){
         this.name = name;
@@ -22,32 +21,28 @@ public class specialHability {
     }
 
     /**
-     *
-     * @return
+     * @return regresa una variable de tipo name
      */
     public String getName() {
         return name;
     }
 
     /**
-     *
-     * @param name
+     * @param name nombre de la variable especial
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     *
-     * @return
+     * @return regresa una variable de tipo cure
      */
     public int getCure() {
         return cure;
     }
 
     /**
-     *
-     * @param cure
+     * @param cure número de curación por la habilidad especial
      */
     public void setCure(int cure) {
         this.cure = cure;
@@ -55,7 +50,7 @@ public class specialHability {
 
     /**
      *
-     * @return
+     * @return regresa una variable de tipo damageLife
      */
     public int getDamageLife() {
         return damageLife;
@@ -63,7 +58,7 @@ public class specialHability {
 
     /**
      *
-     * @param damageLife
+     * @param damageLife número de daño ocasionado por la habilidad especial
      */
     public void setDamageLife(int damageLife) {
         this.damageLife = damageLife;
