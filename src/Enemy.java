@@ -1,3 +1,6 @@
+/**
+ * @author Ruth Anaí de León Morataya
+ */
 public class Enemy extends Combatientes{
 
     private String printMessage;

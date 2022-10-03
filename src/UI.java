@@ -1,3 +1,6 @@
+/**
+ * @author Ruth Anaí de León Morataya
+ */
 import com.sun.tools.javac.Main;
 
 import java.util.Scanner;

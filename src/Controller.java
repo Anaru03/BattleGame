@@ -50,10 +50,11 @@ public class Controller {
     }
 
     /**
-     *
+     * La clase newPlayer hace las acciones del jugador, y muestra los puntos de vida y ataque que tiene
+     * Tiene la capacidad de elegir entre los dos tipos de juagdores que hay: guerrero o explorador
      * @param name nombre del jugador
      * @param type tipo de juagados: guerrero o explorador
-     * @param itemDelUsuario
+     * @param itemDelUsuario habilidades desarrolladas del jugador
      */
     public static void newPlayer(String name, String type, int itemDelUsuario){
         if(type.equalsIgnoreCase("guerrero")){

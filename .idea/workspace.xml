@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se desarrollaron los comentarios de JavaDoc más específicos." />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se desarrollaron los comentarios de JavaDoc más específicos.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +56,7 @@
       <workItem from="1664685728260" duration="873000" />
       <workItem from="1664741863751" duration="7309000" />
       <workItem from="1664749775740" duration="434000" />
-      <workItem from="1664750221142" duration="1277000" />
+      <workItem from="1664750221142" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664751505340</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Se desarrollaron los comentarios de JavaDoc más específicos.">
+      <created>1664751610095</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1664751610095</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

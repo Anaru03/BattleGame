@@ -1,3 +1,6 @@
+/**
+ * @author Ruth Anaí de León Morataya
+ */
 public class specialHability {
 
     private String name;
