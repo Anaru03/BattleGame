@@ -2,8 +2,6 @@
  * @author Ruth Anaí de León Morataya
  */
 
-import javax.swing.plaf.PanelUI;
-
 import java.util.ArrayList;
 
 public class Controller {
@@ -74,6 +72,19 @@ public class Controller {
             explorer.setHabilidades(arrayItems.get(itemDelUsuario));
             arrayPlayer.add(explorer);
         }
+
+        if(type.equalsIgnoreCase("Cazador")){
+            Cazador extraPlayer = new Cazador();
+            extraPlayer. setName(name);
+            extraPlayer.setPointsLife(20);
+            extraPlayer.setPowerAttack(7);
+            extraPlayer.setHabilidades(arrayItems.get(itemDelUsuario));
+            arrayPlayer.add(extraPlayer);
+
+
+
+        }
+
     }
 
     /**
@@ -85,6 +96,7 @@ public class Controller {
         Enemy gladiador = new Enemy();
         Enemy bloomer = new Enemy();
         EnemyBoss TheSupremacyBoss = new EnemyBoss();
+        RaidBoss raidBoss = new RaidBoss();
 
         gladiador.setName("Gladiador");
         gladiador.setName("Tus huesos serían buenas herramientas para mis lanzas");
@@ -104,9 +116,17 @@ public class Controller {
         TheSupremacyBoss.setPointsLife(19);
         TheSupremacyBoss.setHability(new specialHability("Cuchillo infernal", 19, 1));
 
+        raidBoss.setName("Raid Boss");
+        raidBoss.setName("¡Me encargaré de fulminarte con mi raid!");
+        raidBoss.setPowerAttack(2);
+        raidBoss.setPointsLife(19);
+        raidBoss.setHability(new specialHability("Insecticida cegador", 9, 3));
+
         arrayEnemy.add(gladiador);
+        arrayEnemy.add(raidBoss);
         arrayEnemy.add(bloomer);
         arrayEnemy.add(TheSupremacyBoss);
+
     }
 
     /**
@@ -173,6 +193,12 @@ public class Controller {
         turnoDoble.setAttack(2);
         turnoDoble.setMoreLife(1);
         arrayItems.add(turnoDoble);
+
+        items pokemon = new items();
+        pokemon.setName("Mascota del Cazador");
+        pokemon.setAttack(4);
+        pokemon.setMoreLife(4);
+        arrayItems.add(pokemon);
 
         return arrayItems;
     }
