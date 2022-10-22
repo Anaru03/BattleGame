@@ -28,21 +28,21 @@ public class Controller {
         selectorItems();
         UI.UIPlayer();
 
+        if(numEnemy < 4) {
+            for (k = 0; k < 50; k++) {
+                if ((arrayEnemy.get(numEnemy).getPointsLife() > 0) && (arrayPlayer.get(numPlayer).getPointsLife() > 0)) {
+                    if (k % 2 == 0) {
+                        UIturnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                    }
 
-        for(k = 0; k<50; k++){
-            if ((arrayEnemy.get(numEnemy).getPointsLife()>0)&&(arrayPlayer.get(numPlayer).getPointsLife()>0)){
-                if (k % 2 == 0){
-                    UIturnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                    if (k % 2 != 0) {
+                        UIturnoEnemy(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
+                    }
+                } else {
+                    numEnemy++;
+                    UI.UIFirstBattle(numEnemy);
+
                 }
-
-                if(k % 2 != 0){
-                    UIturnoEnemy(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
-                }
-            }
-            else {
-                numEnemy++;
-                UI.UIFirstBattle(numEnemy);
-
             }
         }
     }
@@ -99,28 +99,30 @@ public class Controller {
         RaidBoss raidBoss = new RaidBoss();
 
         gladiador.setName("Gladiador");
-        gladiador.setName("Tus huesos serían buenas herramientas para mis lanzas");
+        gladiador.setPrintMessage("Tus huesos serían buenas herramientas para mis lanzas");
         gladiador.setPowerAttack(3);
         gladiador.setPointsLife(10);
         gladiador.setHability(new specialHability("Lanzas de fuego", 10, 3));
 
+        raidBoss.setName("Raid Boss");
+        raidBoss.setPrintMessage("¡Me encargaré de fulminarte con mi raid!");
+        raidBoss.setPowerAttack(2);
+        raidBoss.setPointsLife(19);
+        raidBoss.setHability(new specialHability("Insecticida cegador", 9, 3));
+
         bloomer.setName("Bloomer");
-        bloomer.setName("Te encerraré en una burbuja hasta que te quedes sin aire");
+        bloomer.setPrintMessage("Te encerraré en una burbuja hasta que te quedes sin aire");
         bloomer.setPowerAttack(2);
         bloomer.setPointsLife(15);
         bloomer.setHability(new specialHability("Burbujas venenosas", 15, 2));
 
         TheSupremacyBoss.setName("The Supremacy Boss");
-        TheSupremacyBoss.setName("¡El líder de este mundo está aquí!");
+        TheSupremacyBoss.setPrintMessage("¡El líder de este mundo está aquí!");
         TheSupremacyBoss.setPowerAttack(1);
         TheSupremacyBoss.setPointsLife(19);
         TheSupremacyBoss.setHability(new specialHability("Cuchillo infernal", 19, 1));
 
-        raidBoss.setName("Raid Boss");
-        raidBoss.setName("¡Me encargaré de fulminarte con mi raid!");
-        raidBoss.setPowerAttack(2);
-        raidBoss.setPointsLife(19);
-        raidBoss.setHability(new specialHability("Insecticida cegador", 9, 3));
+
 
         arrayEnemy.add(gladiador);
         arrayEnemy.add(raidBoss);
