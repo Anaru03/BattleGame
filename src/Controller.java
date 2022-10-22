@@ -28,8 +28,8 @@ public class Controller {
         selectorItems();
         UI.UIPlayer();
 
-        if(numEnemy < 4) {
-            for (k = 0; k < 50; k++) {
+        for (k = 0; k < 50; k++) {
+            if(numEnemy < 3) {
                 if ((arrayEnemy.get(numEnemy).getPointsLife() > 0) && (arrayPlayer.get(numPlayer).getPointsLife() > 0)) {
                     if (k % 2 == 0) {
                         UIturnoPlayer(arrayEnemy.get(numEnemy), arrayPlayer.get(numPlayer));
@@ -45,7 +45,9 @@ public class Controller {
                 }
             }
         }
+        System.out.println("Fin del juego");
     }
+
 
     /**
      * La clase newPlayer hace las acciones del jugador, y muestra los puntos de vida y ataque que tiene
