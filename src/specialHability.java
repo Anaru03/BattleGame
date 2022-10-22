@@ -9,9 +9,9 @@ public class specialHability {
 
 
     /**
-     * @param name nombre de la habilidad especial escogida por el Player
-     * @param cure número de curación en los puntos de los jugadores
-     * @param damageLife número de daño en los puntos de los jugadores
+     * @param name nombre de la habilidad especial escogida por el Enemy
+     * @param cure número de curación en los puntos de los Enemy
+     * @param damageLife número de daño en los puntos de los Enemy
      */
     public specialHability (String name, int cure, int damageLife){
         this.name = name;

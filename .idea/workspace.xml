@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Arreglos en comentarios">
-      <change afterPath="$PROJECT_DIR$/src/ExtraPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RaidBoss.java" afterDir="false" />
+    <list default="true" id="723df260-9f9b-4a99-8549-1c71adb3d74e" name="Changes" comment="Se agregó un nuevo obsejo en newEnemy con el nombre de RaidBoss&#10;También se agregó la nueva habilidad de la mascota">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExtraPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cazador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RaidBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RaidBoss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/specialHability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialHability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,9 @@
       <workItem from="1664815264363" duration="5084000" />
       <workItem from="1664937275566" duration="80000" />
       <workItem from="1664978511781" duration="272000" />
-      <workItem from="1666288965328" duration="1923000" />
+      <workItem from="1666288965328" duration="3961000" />
+      <workItem from="1666399148449" duration="2116000" />
+      <workItem from="1666451051679" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de las clases principales del programa.">
       <created>1664406903312</created>
@@ -324,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664820515685</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Se desarrolló tres nuevas clases, las cuales eran ExtraPlayer, RaidBoss y SpecialPartner">
+      <created>1666291517569</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666291517569</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Se agregó un nuevo obsejo en newEnemy con el nombre de RaidBoss&#10;También se agregó la nueva habilidad de la mascota">
+      <created>1666455826212</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666455826212</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,8 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Se le agregó un atributo items con el nombre items2 en la clase Explorer.&#10;&#10;Se creo un objetollamado explorer en el Controller junto a sus setters" />
-    <MESSAGE value="Se desarrroló los atributos y métodos de la clase specialHability junto con sus getters y setters." />
     <MESSAGE value="La clase EnemyBoss&#10;hederó las características de la clase Enemy." />
     <MESSAGE value="Desarrollo de las propiedades de la clase Enemy junto sus getteres y setters." />
     <MESSAGE value="Se crea el objeto de los dos enemigos y un jege llamando a la clase Enemy y EnemyBoss" />
@@ -367,6 +383,8 @@
     <MESSAGE value="Desarrollo final de comentarios en la clase specialHability" />
     <MESSAGE value="Comentarios finales del javaDoc en el programa" />
     <MESSAGE value="Arreglos en comentarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglos en comentarios" />
+    <MESSAGE value="Se desarrolló tres nuevas clases, las cuales eran ExtraPlayer, RaidBoss y SpecialPartner" />
+    <MESSAGE value="Se agregó un nuevo obsejo en newEnemy con el nombre de RaidBoss&#10;También se agregó la nueva habilidad de la mascota" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregó un nuevo obsejo en newEnemy con el nombre de RaidBoss&#10;También se agregó la nueva habilidad de la mascota" />
   </component>
 </project>

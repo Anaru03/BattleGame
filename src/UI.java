@@ -25,7 +25,7 @@ public class UI {
         name = lector.next();
 
 
-        System.out.println(name + " "  + "¿Deseas ser ser guerrero o explorador?");
+        System.out.println(name + " "  + "¿Deseas ser ser guerrero, explorador o cazador?");
         String type;
 
         type = lector.next();
@@ -69,10 +69,10 @@ public class UI {
         System.out.println("1 Hacer uso de la habilidad especial \n2 Atacar al oponente" );
         int battle = lector.nextInt();
         if(battle == 1){
-            System.out.println("The Player: " + " " +  player.getName() + "invocó el ataque, ocasioanando: " + player.getPowerAttack() + " " + "puntos de daño");
+            System.out.println("The Player: " + " " +  player.getName() + " " + "invocó el ataque, ocasioanando: " + player.getPowerAttack() + " " + "puntos de daño");
         }
         else {
-            System.out.println("The Player" + " " + player.getName() + " " +  "ha invocando su ítem: " + player.getHabilidades().getName() + " " +  ", ocasioanado: ");
+            System.out.println("The Player" + " " + player.getName() + " " + "ha invocando su ítem: " + player.getHabilidades().getName() + " " +  ", ocasioanado: ");
             System.out.println("Un daño de: " + player.getHabilidades().getAttack());
             System.out.println("Una curación de: " + player.getHabilidades().getMoreLife());
         }
