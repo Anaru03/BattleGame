@@ -1,3 +1,7 @@
+/**
+ * @author Ruth Anaí de León Morataya
+ */
+
 public class Combatientes {
 
     private String name;
